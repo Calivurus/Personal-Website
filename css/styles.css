@@ -1,3 +1,31 @@
+@media (max-width: 1650px){
+    p{
+        text-align: center;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    h2{
+        text-align: center;
+    }
+    h3{
+        text-align: center;
+        padding-left: 0%;
+
+    }
+    .Skill-Row-Image{
+        margin: auto;
+        display: block;
+    }
+    .Hobby-Row-Image{
+        margin: auto;
+        display: block;
+    }
+}
+@media (min-width: 1651px){
+    h3{
+        padding-left: 15%;
+    }
+}
 .Greeting{
     font-family: 'Edu TAS Beginner', serif;
 }
@@ -32,7 +60,7 @@ h2{
 }
 h3{
     position:relative;
-    left: 250px;
+    
 }
 p{
     text-align: center;
@@ -73,26 +101,30 @@ p{
 }
 .Skill-Row-Image{
     position: relative;
-    left: 250px;
+    padding-left: 15%;
+    padding-right: 15%;
     height: 100px;
     width: auto;
 }
 .Hobby-Row-Image{
     position: relative;
-    left: 250px;
+    padding-left: 15%;
+    padding-right: 15%;
     height: 100px;
     width: auto;
 }
 .Skills-P{
     position: relative;
     text-align: left;
-    left: 400px;
+    padding-left: 22%;
+    padding-right: 15%;
     bottom: 40px;
 }
 .Hobbies-P{
     position: relative;
     text-align: left;
-    left: 400px;
+    padding-left: 22%;
+    padding-right: 15%;
     bottom: 40px;
 }
 .Bottom-Container{
