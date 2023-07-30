@@ -36,6 +36,7 @@
         top: 0px;
     }
     #Food-Pictures{
+        flex-wrap: wrap;
         padding-left: 21%;
     }
 }
