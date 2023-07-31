@@ -118,6 +118,12 @@ p{
 #profile-p{
     text-align: center;
 }
+#Projects h3{
+    top: 20px;
+}
+#Projects p{
+    bottom: 20px;
+}
 .Middle-Container img{
     position: relative;
     padding-left: 12%;
