@@ -26,7 +26,7 @@
 }
 @media (min-width: 1651px){
     h3{
-        padding-left: 14.5%;
+        padding-left: 12%;
         bottom: 105px;
     }
     .Middle-Container p{
@@ -36,7 +36,9 @@
         top: 0px;
     }
     #Food-Pictures{
-        padding-left: 21%;
+        flex-wrap: wrap;
+        padding-left: 20%;
+
     }
 }
 .Greeting{
@@ -118,8 +120,8 @@ p{
 }
 .Middle-Container img{
     position: relative;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 12%;
+    padding-right: 10%;
     height: 100px;
     width: auto;
     top: 40px;
@@ -129,12 +131,11 @@ p{
     flex-direction: row;
     justify-content: flex-start;
     align-content: space-between;
-
 }
 #Food-Pictures img{
     padding: 0% 1%;
     top: -100px;
-    height: 175px;
+    height: 140px;
 }
 .Middle-Container p{
     position: relative;
